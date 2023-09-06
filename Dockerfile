@@ -1,4 +1,4 @@
-FROM node:20.0-bullseye-slim
+FROM node:20.6-bullseye-slim
 
 RUN apt-get -y update && apt-get -y install ca-certificates apt-transport-https
 
